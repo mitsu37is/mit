@@ -17,7 +17,7 @@ def throw_dice(k):
     for i in range(2, k+1):
         x_vals.append(i)
         y_vals.append(n2_probable(i))
-    make_plot(x_vals, y_vals, 'The Probability of 3 exactly twice emerge', 'number of roll die', 'probability', '-')
+    make_plot(x_vals, y_vals, 'The Probability of Getting 3 Exactly Twice', 'number of roll die', 'probability', '-')
     pylab.savefig('rolldie/probabilityof3')
 
 
